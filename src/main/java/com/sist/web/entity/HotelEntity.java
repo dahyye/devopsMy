@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 import lombok.Data;
 
-@Entity(name="hotel")
+@Entity(name="dahye_hotel")
 @Data
 public class HotelEntity {
 	@Id
