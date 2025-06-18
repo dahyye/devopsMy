@@ -49,6 +49,7 @@ public class HotelController {
    public String hotel_detail(@RequestParam("content_id") int content_id, Model model)
    {
 	   HotelEntity vo = hService.hotelDetailData(content_id);
+	   System.out.println(vo);
 	   model.addAttribute("vo",vo);
 	   model.addAttribute("main_html","detail");
 	   return "index";
